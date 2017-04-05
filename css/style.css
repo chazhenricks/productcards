@@ -1,0 +1,48 @@
+body {
+	background: lightgrey;
+	font-family: "Arial", "Helvetica", sans-serif ;
+}
+
+/**************************************
+CARD STYLES
+**************************************/
+
+#yellow-card,
+#red-card,
+#blue-card {
+	display: inline-block;
+	width: 30%;
+	border: 1px solid lightblue;
+	margin: 0 1%;
+}
+
+.card-title {
+	border-bottom: 1px dotted lightgrey;
+	text-align: center;
+}
+
+img {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.prod-desc{
+	margin: 2em 1em;
+	text-align: justify;
+}
+
+.availability {
+	padding: .5em 0;
+	background-color: darkgrey;
+}
+
+.pricing header,
+.pricing p {
+	font-weight: bolder;
+}
+
+.valid {
+	font-size: .5em;
+	margin-bottom: 1em;
+}
